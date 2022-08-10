@@ -7,7 +7,7 @@ import numpy as np
 model = load_model('deployment_11102020')
 
 
-def run():
+def run():     
 
     from PIL import Image
     image_hospital = Image.open('hospital.jpg')
